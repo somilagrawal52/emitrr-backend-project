@@ -68,8 +68,8 @@ ZooKeeper (required for Kafka on Windows)
 
 ⚙️ Setup Instructions
 1️⃣ Clone the Repository
-git clone https://github.com/your-username/connect4-game.git
-cd connect4-game
+git clone https://github.com/somilagrawal52/emitrr-backend-project.git
+cd emitrr-backend-project
 
 2️⃣ Install Dependencies
 npm install
