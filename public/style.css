@@ -1,0 +1,19 @@
+#board {
+  margin-top: 20px;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  cursor: pointer;
+  background: white;
+}
+
+.p1 {
+  background: red;
+}
+
+.p2 {
+  background: yellow;
+}
