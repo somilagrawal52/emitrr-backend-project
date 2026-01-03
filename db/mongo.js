@@ -1,9 +1,10 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/connect4")
+mongoose
+  .connect(process.env.MONGODB_URI)
   .then(() => console.log("MongoDB connected"))
-  .catch(err => console.error("MongoDB error:", err));
-  
+  .catch((err) => console.error("MongoDB error:", err));
+
 const gameSchema = new mongoose.Schema({
   players: [String],
   winner: String,
